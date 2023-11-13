@@ -9,7 +9,7 @@
 .first{
     height: 90vh;
     position: relative;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url('./img/bomb-8325349_1280.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url('bomb-8325349_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 background-position: center;
