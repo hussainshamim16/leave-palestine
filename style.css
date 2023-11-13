@@ -1,0 +1,723 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.first{
+    height: 90vh;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url('./img/bomb-8325349_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+
+    /* border: 1px solid red; */
+    /* background-color: rgb(184, 184, 71); */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.navbar{
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+    display: flex;
+   justify-content: space-between;
+    
+}
+
+.nav-img{
+    width: 70px;
+
+}
+
+.nav-link{
+    font-size: 50px;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forent{
+    /* border: 8px dotted rgb(226, 174, 89); */
+
+padding-top: 220px;
+padding-bottom: 19px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forent-heading{
+  font-family: Noto Nastaliq Urdu;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+    color: white;
+}
+
+.forent-link{
+    border : 2px solid rgb(2, 74, 15);
+ /* box-shadow: -3px 3px 13px 1px #ffffff; */
+
+ font-family: Sulphur Point;
+
+    border-radius: 40px;
+text-decoration: none;
+color: white;
+font-weight: 700;
+font-size: 23px;
+margin-bottom: 10px;
+    padding: 10px 30px;
+}
+
+.forent-p{
+  font-family: Caveat, sans-serif;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff9f;
+}
+
+.foter{
+    /* border: 2px solid blue; */
+background-color: rgb(0, 0, 0);
+
+
+margin-top: -15px;
+    text-align: center
+}
+
+.foter-peragraph{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;}
+
+/* ------------------ */
+
+    .second-page{
+        /* border: 2px solid black; */
+        margin-top: 30px;
+        padding-bottom: 20px;
+background-color: antiquewhite  ;
+      
+    }
+    
+    .second-h1{
+      font-family: 'Courier New', Courier, monospace;
+        color: #c05959  ;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding: 40px;
+        text-align: center;
+
+        font-size: 40px
+        
+    }
+
+    .text{
+      border: 2px solid red;
+      padding: 20px;
+      text-align: left;
+
+margin-top: 40px;
+margin-bottom: 40px;
+
+margin-left: 20%;
+      width: 600px;
+
+      color: rgb(0, 0, 0);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 20px;
+    list-style-type: lower-greek;
+      font-weight: 500;
+      text-transform: capitalize;
+
+    }
+
+    .list-bycot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .list-img{
+border: 2px solid white;
+border-radius: 30px;
+
+margin: 15px;
+        
+        width: 300px;
+        height: 500px;
+    }
+
+
+    .coment{
+        margin: 40px;
+        /* margin-left: 20px; */
+
+
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-area{
+        padding: 100px 10px;
+        background-color: rgb(250, 233, 157);
+        border: 2px solid white;
+        border-radius: 10px;
+        text-align: start;  
+    }
+
+    .btan{
+        width: 200px;
+        background-color: brown;
+        border: none;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+
+        padding: 6px 10px;
+
+
+
+    }
+
+    .second-last-page{
+        /* border: 2px solid red; */
+        background-color: rgb(255, 212, 155) ;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+
+margin-top: 50px;
+        padding: 50px;
+    }
+
+
+
+    .fame{
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        position: relative;
+        background-image:linear-gradient(#ff9090cc,#94abeecc ),url('./img/flsten.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    background-position: center;
+
+width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        padding: 20px;
+    }
+
+    .faame{
+        /* border: 1px solid rgb(0, 0, 0); */
+        border-radius: 20px;
+     
+        position: relative;
+        background-image:linear-gradient(#ff9090cc,#94abeecc ),url('./img/flsten.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    background-position: center;
+
+width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+        padding: 20px;
+    }
+    
+
+    .imagee{
+        /* border: 5px solid red; */
+        /* border-radius: 100px; */
+        width: 640px;
+        padding-top: -29px;
+
+        margin-bottom: -20px;
+
+        /* margin: 20px; */
+    }
+    
+    .pera{
+      font-family: 'Edu TAS Beginner', cursive;
+      font-weight: 600;
+        font-size: 25px;
+        /* text-align: center; */
+        color: rgb(21, 21, 21);
+    }
+
+    /* --------------- img  */
+    
+    .foter-imag{
+        width: 220px;
+    }
+
+    .dsame{
+        margin-top: 60px;
+        background-color: antiquewhite;
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 9px;
+    }
+
+    .dsame h2{
+      font-family: Orbitron;
+      letter-spacing: 20px;
+    }
+
+    .fotrr{
+        /* border: 4px solid darkgreen; */
+        margin-top: 60px;
+margin-left: 40px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: -30px;
+        
+
+    }
+
+
+    /* -------------------- */
+
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+
+margin-top: 70px;
+padding-bottom: 50px;
+
+
+      width: 90%;
+      height: 89%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    } */
+
+    /* =================== */
+
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+
+    
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+  
+border-radius: 5px;
+
+        margin-top: 50px;
+      
+
+      width: 95%;
+      height: 80%;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+
+     
+
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    } */
+
+
+
+    /* =============================== */
+
+    /* .swipeer {
+margin-top: 60px;
+        border: 2px solid red;
+
+        width: 100%;
+        height: 80vh;
+      }
+
+     
+  
+      .swiper-slide {
+
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+      }
+   */
+
+
+      /* ---------- */
+
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #c05f5f;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+
+
+margin-top: 50px;
+box-shadow: 0px 0px 20px 2px #502222;
+border-radius: 20px ;
+        width: 90%;
+        height: 500px;
+      }
+  
+      .swiper-slide {
+
+
+        
+        text-align: center;
+        font-size: 18px;
+        background: #d4d4d4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swp-h2{
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+
+        font-size: 30px;
+        font-family:'Dosis';
+word-spacing: 20px;
+        margin-top: 60px;
+      }
+
+      .container{
+margin-top: 70px;
+
+        /* border: 1px solid red; */
+        background-color: rgb(68, 68, 68);
+        width: 100%;
+        height: 130vh;
+
+
+      }
+
+      .container h2{
+      
+        font-family: 'Edu TAS Beginner',sans-serif;
+
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+
+        padding-top: 50px;
+      }
+
+      .container p{
+     font-family: 'Dosis', sans-serif;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+
+margin-left: 200px;
+        width: 600px;
+        padding-top: 20px;
+      }
+
+      /* ------- */
+
+      .ajkal{
+        /* border: 1px solid red; */
+     margin-top: 40px;
+     
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* flex-direction: row */
+
+      }
+
+      .er{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        flex-direction: column;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 2px -2px 22px 5px #181818;
+        border-radius: 29px;
+margin: 20px;
+        width: 290px;
+        
+      }
+
+      .dad{
+        width: 200px;
+
+        margin-bottom: 0px;
+
+
+      }
+
+      .dadd{
+        width: 280px;
+
+        margin-bottom: 0px;
+
+
+      }
+      .daddd{
+        width: 240px;
+
+        margin-bottom: 0px;
+
+
+      }
+
+      .kamm{
+        /* background-color: #c05f5f; */
+        width: 100%;
+        border: 2px solid rgb(0, 102, 255);
+        margin-bottom: -20px;
+      }
+
+      .er h2{
+        color: rgb(201, 210, 255);
+
+        font-size: 25px;
+      }
+      .er h4{
+        color: #bdddff;
+
+      }
+
+  .er p{
+    font-family: 'Dosis';
+    color: #ffffff;
+    font-size: 17px;
+text-align: center;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: -9px;
+  }
+
+  @media (max-width:500px) {
+    .nav-img{
+      width: 50px;
+    }
+    .forent{
+      padding-bottom: 100px;
+    }
+    .forent-heading{
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .forent-link{
+      font-size: 17px;
+      padding: 8px 25px;
+      margin-bottom: 10px;
+    }
+    .forent-p{
+      font-size: 12px;
+      width: 150px;
+    }
+
+
+    .second-last-page{
+      margin-top: 80px;
+    }
+   .fame{
+flex-direction: column;
+width: 145%;
+/* padding: 5px; */
+
+   }
+   .imagee{
+    width: 270px;
+    margin-top: -170px;
+
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(10, 46, 100);
+   }
+   .pera{
+    font-size: 20px;
+    width: 230px;
+    /* text-align: center; */
+   }
+   .man{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .man p{
+    color: #fefae1;
+   }
+.faame{
+  flex-direction: column;
+width: 145%;
+}
+
+.container{
+  height: 260vh;
+}
+
+.swp-h2{
+  font-size: 22px;
+  word-spacing: 2px;
+  letter-spacing: 3px;
+}
+
+
+.container h2{
+  font-size: 20px;
+}
+.container h4{
+ letter-spacing: 2px;
+ font-weight: 500;
+}
+
+
+.container p{
+margin-left: 5px;
+
+font-size: 13px;
+width:  270px;
+/* margin-left: 10px; */
+text-align: center;
+}
+.ajkal{
+  flex-direction: column;
+}
+.er{
+  width: 270px;
+}
+
+.list-bycot{
+  flex-direction: column;
+}
+.list-img{
+  width: 280px;
+}
+
+.text{
+  font-size: 14px;
+  width: 290px;
+  margin-left: 5px;
+}
+
+.foter{
+  margin-top: 50px;
+}
+
+.dsame h2{
+  font-size: 18px;
+  word-spacing: 2px;
+  letter-spacing: 9px;
+}
+
+
+  }
+
+  @media (max-height: 300px){
+  body{
+    width: 330vh;
+  }
+  .first{
+    height: 180vh;
+  }
+  .container{
+    padding-bottom: 850px;
+  }
+  }
+
+ 
